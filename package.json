@@ -1,0 +1,15 @@
+{
+  "name": "vault-commander",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Leitor local e somente-leitura para um Vault Obsidian, com interface retrô.",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.mjs",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "markdown-it": "^14.1.0"
+  }
+}
